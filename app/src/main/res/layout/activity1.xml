@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewParolaNascosta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="______"
+        android:textSize="75sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/editTextLettera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Inserisci una lettera"
+        android:maxLength="1"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonProva"
+        android:onClick="onProva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prova"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewTentativi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentativi: 0"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:onClick="onReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonAiuto"
+        android:onClick="onAiuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aiuto"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
+
+</LinearLayout>
